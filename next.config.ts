@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: "/cv-pglejzer",
+  assetPrefix: "/cv-pglejzer/",
 };
 
 export default nextConfig;

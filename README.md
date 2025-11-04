@@ -1,27 +1,43 @@
-# Curriculum vitae
+# Portfolio Website
 
-Curriculum vitae of Piotr Glejzer.
+Modern, minimalist portfolio and CV website built with Next.js 16.
 
-## Getting Started
+## Tech Stack
 
-This is prd version with no scripts.
-[Live version ](https://pglejzer.pl/cv/)
+- **Next.js 16** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS v4** - Utility-first styling
+- **DaisyUI 5.4.3** - UI components
+- **next-themes** - Dark/light mode support
+- **Bilingual** - Polish and English versions
 
-### Prerequisites
+## Features
 
-Basic knowledge of HTML/CSS/JS is required to use it.
-Created with HTML, CSS, SASS, metology BEM.
+- 🌓 Dark/light theme switcher
+- 🌍 PL/EN language toggle
+- 📱 Fully responsive design
+- ♿ Accessible with ARIA labels
+- 🎯 SEO optimized
+- 🎨 3D flip avatar animation
+- ⚡ Static export for GitHub Pages
 
-## Authors
+## Development
 
-* **Piotr Glejzer** - *Initial work* - [pglejzer](https://github.com/pglejzer)
+```bash
+# Install dependencies
+yarn install
+
+# Run development server
+yarn dev
+
+# Build for production
+yarn build
+```
+
+## Author
+
+**Piotr Glejzer** - [GitHub](https://github.com/pglejzer) | [LinkedIn](https://www.linkedin.com/in/piotr-glejzer)
 
 ## License
 
-This project is licensed under the MIT License.
-
-## Acknowledgments
-
-* [flaticon](https://www.flaticon.com/free-icon/avocado_184517) - Icon of avocode created by [freepik](https://www.flaticon.com/authors/freepik)
-* [iconfinder](https://www.iconfinder.com/icons/282807/jquery_icon) - jQuery icon
-* [icons8](https://pl.icons8.com/icon/set/bootstrap/all) - Bootstrap icon
+MIT License

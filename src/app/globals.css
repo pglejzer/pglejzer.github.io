@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer base {
+  :root {
+    --color-primary: 0 0 0;
+    --color-secondary: 64 64 64;
+    --color-accent: 0 0 0;
+  }
+
+  [data-theme="dark"] {
+    --color-primary: 255 255 255;
+    --color-secondary: 160 160 160;
+    --color-accent: 255 255 255;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.group:hover .group-hover\:rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.card {
+  border: 1px solid oklch(var(--bc) / 0.1);
+}

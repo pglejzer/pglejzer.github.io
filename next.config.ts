@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
-  distDir: "out",
+  distDir: "docs",
   images: {
     unoptimized: true,
   },

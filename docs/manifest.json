@@ -1,0 +1,16 @@
+{
+  "name": "Piotr Glejzer - Frontend Developer",
+  "short_name": "PG Portfolio",
+  "description": "Frontend Developer with 7+ years of experience in React.js, Next.js, and SSR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
